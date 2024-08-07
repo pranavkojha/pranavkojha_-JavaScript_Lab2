@@ -68,11 +68,11 @@ function Question(text, choices, answer) {
 }
 
 let questions = [
-  new Question("JavaScript supports", ["Functions", "XHTML", "CSS", "HTML"], "Functions"),
-  new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-  new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery", "Django", "NodeJS"], "Django"),
-  new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-  new Question("JavaScript is a", ["Language", "Programming Language", "Development", "All"], "Programming Language"),
+  new Question("What is the capital of Australia?", ["Sydney", "Melbourne", "Brisbane", "Canberra"], "Canberra"),
+  new Question("Which is the largest ocean?", ["Indian", "Atlantic", "Pacific", "Arctic"], "Pacific"),
+  new Question("Which country has the largest area?", ["Russia", "China", "USA", "India"], "Russia"),
+  new Question("Which is the largest City in the world?", [ "Delhi", "Shanghai", "Tokyo","Dhaka"], "Tokyo"),
+  new Question("Which is the largest animal on earth?", ["Elephant", "Whale", "Giraffe", "Hippo"], "Whale"),
 ]
 let quiz = new Quiz(questions)
 
